@@ -14,9 +14,7 @@ var option = {
 
 var filedownload = new S3FileZipper(option);
 
-var imagesArr = ['public/person/imahe1.jpg',
-'public/products/imahe2.jpg'
-];
+var imagesArr = ['public/person/imahe1.jpg','public/products/imahe2.jpg'];
 
 filedownload.downloadFiles(imagesArr, "./test", "test.zip", function(err, resp){
 	if(err)
