@@ -1,0 +1,26 @@
+{
+  "name": "aws_s3filezipper",
+  "version": "1.0.0",
+  "description": "The project download files from AWS S3 and zip it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imZEH/aws_s3filezipper.git"
+  },
+  "author": "Neil Ragadio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imZEH/aws_s3filezipper/issues"
+  },
+  "homepage": "https://github.com/imZEH/aws_s3filezipper#readme",
+  "dependencies": {
+    "async": "^2.1.5",
+    "aws-sdk": "^2.19.0",
+    "fs-extra": "^2.0.0",
+    "s3-download": "^1.0.0",
+    "zip-folder": "^1.0.0"
+  }
+}
